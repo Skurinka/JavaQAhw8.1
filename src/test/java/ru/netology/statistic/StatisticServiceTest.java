@@ -17,6 +17,7 @@ public class StatisticServiceTest {
 
         assertEquals(expected, actual);
     }
+
     @Test
     void findMaxIfAllEquals() {
         StatisticsService service = new StatisticsService();
@@ -28,6 +29,7 @@ public class StatisticServiceTest {
 
         assertEquals(expected, actual);
     }
+
     @Test
     void findMaxIfAll13ButOne() {
         StatisticsService service = new StatisticsService();
